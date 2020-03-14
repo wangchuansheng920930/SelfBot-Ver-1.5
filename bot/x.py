@@ -9,7 +9,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 f = open('bot/run.txt','r')
 ttoken = f.read()
 f.close()
-cl = LINE(ttoken) 
+cl = LINE("chuanshou012@gmail.com","wang651215")
 print("Auth Token : " + str(cl.authToken))
 f = open('bot/token.txt','w')
 f.write(str(cl.authToken))
