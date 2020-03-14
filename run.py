@@ -6,7 +6,7 @@ def CleanMSG():
     else:
         _ = os.system("clear")
 print("以下為系統登入選項\n 1.既存token\n 2.網址登入\n 3.輸入token\n 4.LINE帳密")
-way = str( input("[※]請選擇汝欲登入的方式 :"))
+way = str( input("[4]請選擇汝欲登入的方式 :"))
 if way =='1':
     f = open('bot/token.txt','r')
     ttoken = f.read()
